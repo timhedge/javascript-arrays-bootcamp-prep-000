@@ -40,3 +40,9 @@ function removeElementFromBeginningOfArray(array)
   var removeFirstElement = array.slice(1)
   return removeFirstElement
 }
+
+function destructivelyRemoveElementFromEndOfArray(array)
+{
+  array.pop()
+  return array
+}
